@@ -17,11 +17,11 @@ public class Calculator {
     }
 
     // Method to divide two numbers
-    public double divide(double a, double b) {
+    public double divide(double a, double b, double c) {
         if (b == 0) {
             throw new ArithmeticException("Division by zero is not allowed.");
         }
-        return a / b;
+        return (a / b) + c;
     }
 
     // Main method to test the calculator
