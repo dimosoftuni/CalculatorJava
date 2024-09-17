@@ -18,7 +18,7 @@ public class Calculator {
 
     // Method to divide two numbers
     public double divide(double a, double b) {
-        if (b == 0) {
+        if (b == 0 || b < 0) {
             throw new ArithmeticException("Division by zero is not allowed.");
         }
         return a / b;
