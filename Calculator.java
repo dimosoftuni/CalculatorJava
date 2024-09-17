@@ -1,3 +1,4 @@
+// Java Calculator class
 public class Calculator {
 
     // Method to add two numbers
